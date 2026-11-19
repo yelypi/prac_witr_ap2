@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+</head>
+<body bgcolor="#eeeeee">
+<center>
+<h1>FORMULARZ KLUBU<br>SIATKARSKIEGO</h1>
+</center>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" method="post">
+<table>
+<tr>
+<td colspan="2" align="right">
+<b>Hasło do formularza:</b>
+<br>
+<input type="password" name="haslo" size="25">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<b>Dane ucznia:</b>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input name="imie" size="22">
+&nbsp;
+<input name="nazwisko" size="22">
+&nbsp;
+<input name="klasa" size="12">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<table>
+<tr>
+<td width="185">Imię</td>
+<td width="185">Nazwisko</td>
+<td>Klasa</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr height="400">
+<td width="300" valign="top">
+
+<b>Poziom gry:</b>
+<br><br>
+
+<input type="radio" name="poziom" value="poczatkujacy"> Początkujący
+<br>
+<input type="radio" name="poziom" value="sredni"> Średni
+<br>
+<input type="radio" name="poziom" value="zaawansowany"> Zaawansowany
+<br>
+<input type="radio" name="poziom" value="profesjonalny"> Profesjonalny
+<br><br>
+<b>Pozycja:</b>
+<br><br>
+<input type="radio" name="pozycja" value="rozgrywajacy"> Rozgrywający
+<br>
+<input type="radio" name="pozycja" value="atakujacy"> Atakujący
+<br>
+<input type="radio" name="pozycja" value="libero"> Libero
+<br><br>
+<b>Ulubiona pozycja:</b>
+<br><br>
+<input type="radio" name="ulubiona" value="libero"> Libero
+<br>
+<input type="radio" name="ulubiona" value="atakujacy"> Atakujący
+<br>
+<input type="radio" name="ulubiona" value="przyjmujacy"> Przyjmujący
+<br>
+<input type="radio" name="ulubiona" value="srodkowy"> Środkowy
+<br>
+<input type="radio" name="ulubiona" value="rozgrywajacy"> Rozgrywający
+<br><br>
+Jeśli masz ulubiony napój, wpisz maks. 50 znaków:
+<br><br>
+<textarea name="napoj" cols="35" rows="4" maxlength="50"></textarea>
+</td>
+
+<td width="300" valign="top">
+
+<b>Zainteresowania:</b>
+<br><br>
+<input type="checkbox" name="zainteresowania" value="trening"> Trening
+<br>
+<input type="checkbox" name="zainteresowania" value="mecze"> Mecze
+<br>
+<input type="checkbox" name="zainteresowania" value="turnieje"> Turnieje
+<br>
+<input type="checkbox" name="zainteresowania" value="siatkowka"> Siatkówka plażowa
+<br><br>
+
+<b>Co lubisz?</b>
+<br><br>
+<input type="checkbox" name="co" value="grac"> Grać
+<br>
+<input type="checkbox" name="co" value="ogladac"> Oglądać mecze
+<br>
+<input type="checkbox" name="co" value="trenowac"> Trenować
+<br><br>
+
+<b>Sprzęt:</b>
+<br><br>
+<input type="checkbox" name="sprzet" value="pilka"> Piłka
+<input type="checkbox" name="sprzet" value="buty"> Buty
+<input type="checkbox" name="sprzet" value="stroj"> Strój
+<input type="checkbox" name="sprzet" value="nakolanniki"> Nakolanniki
+<br>
+<input type="checkbox" name="sprzet" value="plecak"> Plecak
+<br><br>
+<b>Podaj nazwę swojej ulubionej piłki:</b>
+<br><br>
+<select name="pilka">
+<option value="mikasa">Mikasa</option>
+<option value="molten">Molten</option>
+<option value="inna">Inna</option>
+</select>
+<br><br>
+<b>Podaj dane, kiedy możesz trenować:</b>
+<br><br>
+Podaj czas:
+<input type="time" name="czas">
+<br><br>
+Podaj datę:
+<input type="date" name="data" lang="pl">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="right">
+<button type="button"
+onclick="alert('Brak')"
+style="height:50px;width:100px">Dalej</button>
+
+
+<input type="reset" value="Reset"
+style="height:50px;width:100px">
+
+</td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
